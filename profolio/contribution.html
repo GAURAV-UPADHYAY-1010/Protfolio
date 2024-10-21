@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page - Gaurav Upadhyay</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 10px;
+            background-color: #0056b3;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #004085;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #004085;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Space images evenly in the row */
+            margin-bottom: 20px;
+        }
+        .image-container a {
+            width: 22%; /* Set width of each image container to 22% to fit four in a row */
+            margin: 10px;
+            border:  solid #0056b3; /* Blue border around each image */
+            border-radius: auto; /* Rounded corners */
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        img {
+            width: 100%; /* Make the image fill its container */
+            height:100%; /* Maintain aspect ratio */
+            cursor: pointer;
+        }
+        a:hover {
+            transform: scale(1.05); /* Slightly enlarge the entire project block on hover */
+            border-color: #004085; /* Darken the border color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gaurav Upadhyay</h1>
+        <h2>Contributes for: Creating a Meaningful Impact for a Greater Purpose</h2>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home Page</a></li>
+                <li><a href="contribution.html">Contribution & Achivement Page</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+                <li><a href="skills.html">Skills & Projects</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="cv.html">CV</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contributions And Achivement</h2>
+        <p>Click on an image to view the  details</p>
+        <div class="image-container">
+            <a href="project1.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\WhatsApp Image 2024-10-21 at 1.34.29 PM.jpeg" alt="Project 1">
+            </a>
+            <a href="project2.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\Image1.jpeg" alt="Project 2">
+            </a>
+            <a href="project3.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\image2.jpeg" alt="Project 3">
+            </a>
+            <a href="project4.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\image3.jpeg" alt="Project 4">
+            </a>
+            <a href="project5.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\WhatsApp Image 2024-10-21 at 1.31.20 PM.jpeg" alt="Project 5">
+            </a>
+            <a href="project6.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\WhatsApp Image 2024-10-21 at 1.34.26 PM.jpeg" alt="Project 6">
+            </a>
+            <a href="project7.html">
+                <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\WhatsApp Image 2024-10-21 at 1.34.27 PM.jpeg" alt="Project 7">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>"Every small contribution matters; together, we can create a ripple effect of change!"</p>
+    </footer>
+</body>
+</html>

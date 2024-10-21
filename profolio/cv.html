@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Page - Gaurav Upadhyay</title>
+    <style>
+        body {
+            background-color: white; /* White background for the body */
+            color: black; /* Black text color for body */
+            font-family: Arial, sans-serif; /* Font style */
+            margin: 0; /* Remove default margin */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Stack elements vertically */
+            min-height: 100vh; /* Ensure body takes full height */
+        }
+        header {
+            background-color: #0056b3; /* Blue background for header */
+            color: white; /* White text color for header */
+            text-align: center; /* Centered text */
+            padding: 20px; /* Padding for header */
+        }
+        nav {
+            margin-top: 10px; /* Space between header and nav */
+            background-color: #0056b3; /* Lighter blue for navigation */
+            padding: 10px; /* Padding for nav */
+        }
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+            display: flex; /* Use flexbox for horizontal layout */
+            justify-content: center; /* Center links horizontally */
+        }
+        nav ul li {
+            margin-right: 20px; /* Space between links */
+        }
+        nav a {
+            color: white; /* White text color for links */
+            text-decoration: none; /* Remove underline from links */
+            font-weight: bold; /* Bold text for links */
+            padding: 5px 10px; /* Padding for links */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        nav a:hover {
+            background-color: #004085; /* Darker blue on hover */
+            border-radius: 5px; /* Rounded corners */
+        }
+        footer {
+            background-color: #004085; /* Blue background for footer */
+            color: white; /* White text color for footer */
+            text-align: center; /* Centered text */
+            padding: 20px; /* Padding for footer */
+        }
+        h1 {
+            margin: 0; /* Remove margin from h1 */
+        }
+        main {
+            flex: 1; /* Allow main content to grow and fill available space */
+            padding: 20px; /* Padding for main content */
+            line-height: 1.6; /* Improved line height for readability */
+            text-align: center; /* Center text for the main content */
+        }
+        .cv-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px; /* Space above the CV section */
+        }
+        .cv-container img {
+            width: 50%; /* Set width for the image */
+            height: auto; /* Maintain aspect ratio */
+            border: 3px solid #0056b3; /* Blue border around image */
+            border-radius: 10px; /* Rounded corners */
+            transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+            margin-bottom: 20px; /* Space below the image */
+        }
+        /* Enlarge image on hover */
+        .cv-container img:hover {
+            transform: scale(1.2); /* Scale the image to 120% */
+        }
+        .cv-container a {
+            text-decoration: none;
+            color: white;
+            background-color: #0056b3;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .cv-container a:hover {
+            background-color: #004085;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gaurav Upadhyay</h1>
+        <br>
+        <h1>My CV</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home Page</a></li>
+                <li><a href="contribution.html">Contribution & Achivement Page</a></li>
+                <li><a href="contact.html">Contact Page</a></li>
+                <li><a href="skills.html">Skills & Projects</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cv-container">
+            <h2>Curriculum Vitae</h2>
+            <p>Below is a visual representation of my CV:</p>
+            <img src="C:\Users\sadhn\OneDrive\Desktop\profolio\Images\under.jpg" alt="Gaurav Upadhyay CV">
+            <a href="C:\Users\sadhn\OneDrive\Desktop\profolio\CV\Gaurav_Upadhyay_CV.pdf" download>Download CV</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>"Every small contribution matters; together, we can create a ripple effect of change!"</p>
+    </footer>
+</body>
+</html>
